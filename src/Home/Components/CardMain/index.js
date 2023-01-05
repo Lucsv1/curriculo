@@ -1,21 +1,26 @@
 import styled from "styled-components";
 
 export const Card_Base = styled.div`
-border: solid;
+border: solid 1px;
+border-top-left-radius: 10px ;
 display: flex;
-justify-content: center;
+justify-content: space-around;
+padding: 10px;
+margin-bottom: 8px;
 `
 export const Card = styled.div`
 display: flex;
+justify-content: space-around;
 img{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    border: solid   ;
+    position: relative;
+    right: 13%;
 }
-
-border: solid;
-width: 50%;
+width: 80%;
+position: relative;
+left: 10%;
 
 `
 export const Text = styled.div`
@@ -29,6 +34,5 @@ p{
     font-size: 20px;
 }
 padding: 10px ;
-border: solid;
 
 `

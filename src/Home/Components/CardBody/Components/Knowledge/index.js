@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Know_Base = styled.div`
-border: solid;
 padding: 10px;
 display: grid;
 
@@ -12,7 +11,6 @@ export const Know = styled.div`
 display: flex;
 justify-content: center;
 padding: 10px;
-border: solid red;
 img{
      width: 100px;
     height: 100px;
@@ -20,34 +18,60 @@ img{
 
 }
 
+h4{
+    text-align: center;
+    margin-top: 5px;
+}
+
 
 `
 export const ImgJs = styled.div` 
+border: solid 2px;
+border-radius: 10px;
 display: flex;
-border: solid;
 width: 40%;
+margin: 10px ;
+padding: 10px;
 
 
 
 `
 export const ImgHtml = styled.div`
 display: flex;
-border: solid;
 width: 40%;
+margin: 10px ;
+h4{
+   margin-top: 20px;
+}
+padding: 10px;
+border: solid 2px;
+border-radius: 10px;
+
 
 
 
 `
 export const ImgCss = styled.div`
 display: flex;
-border: solid;
+border: solid 2px;
+border-radius: 10px;
 width: 40%;
+margin: 10px ;
+padding: 10px;
+h4{
+   margin-top: 20px;
+}
+
 
 
 `
 export const ImgAtom = styled.div`
+border: solid 2px;
+border-radius: 10px;
 display: flex;
 width: 40%;
-border: solid;  
+margin: 10px ;  
+padding: 10px;
 
-`
+
+`       

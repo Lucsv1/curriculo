@@ -11,7 +11,6 @@ export const Main = styled.div`
 h1{
     text-align: center;
 }
-border: solid;
 padding: 10px ;
 
 

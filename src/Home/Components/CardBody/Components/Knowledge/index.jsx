@@ -9,7 +9,7 @@ export const Knowledge = () => {
     <Know_Base>
       <Know>
         <ImgJs>
-          <img src={Js} alt="Js" />*
+          <img src={Js} alt="Js" />
           <h4>JavaScript: Meu conhecimento sobre JS é Intermediario, Tive mais facilidade utilizando no React</h4>
         </ImgJs>
         <ImgHtml>
