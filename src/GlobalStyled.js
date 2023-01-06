@@ -12,7 +12,9 @@ export const GlobalStyled = createGlobalStyle`
 
     box-sizing: border-box;
 
-    background-color: grey;
+    background-color: #161B22;
+
+    color: #F0F6FC;
 
 }
 

@@ -4,7 +4,6 @@ export const Know_Base = styled.div`
 padding: 10px;
 display: grid;
 
-
 `
 
 export const Know = styled.div`
@@ -26,7 +25,8 @@ h4{
 
 `
 export const ImgJs = styled.div` 
-border: solid 2px;
+border: solid 2px #242d38;
+box-shadow: 0px 0px 5px 3px #C9D1D9 ;
 border-radius: 10px;
 display: flex;
 width: 40%;
@@ -37,6 +37,8 @@ padding: 10px;
 
 `
 export const ImgHtml = styled.div`
+border: solid 2px #242d38;
+box-shadow: 0px 0px 5px 3px #C9D1D9 ;
 display: flex;
 width: 40%;
 margin: 10px ;
@@ -44,7 +46,6 @@ h4{
    margin-top: 20px;
 }
 padding: 10px;
-border: solid 2px;
 border-radius: 10px;
 
 
@@ -52,8 +53,9 @@ border-radius: 10px;
 
 `
 export const ImgCss = styled.div`
+border: solid 2px #242d38;
+box-shadow: 0px 0px 5px 3px #C9D1D9 ;
 display: flex;
-border: solid 2px;
 border-radius: 10px;
 width: 40%;
 margin: 10px ;
@@ -66,7 +68,8 @@ h4{
 
 `
 export const ImgAtom = styled.div`
-border: solid 2px;
+border: solid 2px #242d38;
+box-shadow: 0px 0px 5px 3px #C9D1D9 ;
 border-radius: 10px;
 display: flex;
 width: 40%;

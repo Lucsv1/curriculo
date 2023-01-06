@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Card_Base = styled.div`
-border: solid 1px;
+border: solid 1px #38393b;
+box-shadow: 1px 1px 1px 1px #0f0f0f;
 border-top-left-radius: 10px ;
 display: flex;
 justify-content: space-around;
