@@ -26,13 +26,17 @@ left: 10%;
 `
 export const Text = styled.div`
 h2{
-    text-align: center;
+    text-align: justify;
     margin-bottom: 4px;
 }
 
 p{
-    text-align: justify;
+    text-align: start;
     font-size: 20px;
+}
+
+span{
+        color: blue;
 }
 padding: 10px ;
 

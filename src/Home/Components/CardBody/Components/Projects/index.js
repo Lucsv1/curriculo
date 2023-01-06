@@ -27,8 +27,13 @@ img{
     height: 150px;
     margin: 20px;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
+img:hover{
+    border: solid 2px #242d38;
+box-shadow: 0px 0px 5px 3px #C9D1D9 ;
+}
 `
 export const DivimgBora = styled.div`
 border-radius: 8px;
@@ -42,6 +47,7 @@ width: 50%;
  p{
     margin-bottom: 3px;
  }
+ 
 
 `
 export const DivimgModa = styled.div`

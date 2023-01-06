@@ -5,6 +5,7 @@ import font from "./Font/Aquatico-Regular.otf"
 
 export const GlobalStyled = createGlobalStyle`
 *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     padding: 0;
 

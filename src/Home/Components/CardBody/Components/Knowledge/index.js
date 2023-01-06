@@ -42,9 +42,7 @@ box-shadow: 0px 0px 5px 3px #C9D1D9 ;
 display: flex;
 width: 40%;
 margin: 10px ;
-h4{
-   margin-top: 20px;
-}
+
 padding: 10px;
 border-radius: 10px;
 
@@ -60,9 +58,7 @@ border-radius: 10px;
 width: 40%;
 margin: 10px ;
 padding: 10px;
-h4{
-   margin-top: 20px;
-}
+
 
 
 
